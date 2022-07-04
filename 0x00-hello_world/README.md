@@ -1,1 +1,1 @@
- program that prints exactly "Programming is like building a multilingual puzzle
+cript that generates the assembly code (Intel syntax) of a C code and save it in an output file
