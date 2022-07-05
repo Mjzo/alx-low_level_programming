@@ -1,14 +1,15 @@
-#include "stdio.h"
+#include "main.h"
+#include <stdio.h>
 
 /**
  * add - adds two numbers together.
- * @n: first number to be added.
- * @m: second number to be added.
- * return: sum (n+m)
+ * @a: first number to be added.
+ * @b: second number to be added.
+ * return: a + b
  */
 
-int add(int n, int m)
+int add(int a, int b)
 {
-	return (n + m);
+	return (a + b);
 }
 
