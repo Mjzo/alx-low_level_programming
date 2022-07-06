@@ -1,1 +1,1 @@
-main.h
+function that prints the alphabet
