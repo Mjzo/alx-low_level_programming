@@ -1,30 +1,27 @@
 #include "main.h"
 /**
- * _strncpy - Copy a string
- * @dest: The destination value
- * @src: The source value
- * @n: The copy limit
- * Return: char value
+ * _strchr - locate character in string
+ * @s: source string
+ * @c: character to find
+ *  Return: the string from character found
  */
-char *_strncpy(char *dest, char *src, int n)
+char *_strchr(char *s, char c)
 {
-	int a = 0, b = 0;
+	int a = 0, b;
 
-	while (src[b])
+	while (s[a])
 	{
-		b++;
-	}
-
-	while (a < n && src[a])
-	{
-		dest[a] = src[a];
 		a++;
 	}
 
-	while (a < n)
+	for (b = 0; b <= a; b++)
 	{
-		dest[a] = '\0';
-		a++;
+		if (c == s[b])
+		{
+			s += b;
+			return (s);
+		}
 	}
-	return (dest);
+
+	return ('\0');
 }
