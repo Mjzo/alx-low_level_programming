@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdhio.h>
+#include <stdlib.h>
 /**
  * _strdup -  Entry point
  * @str: char
